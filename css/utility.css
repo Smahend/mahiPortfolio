@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+}
+
+.align-items{
+    align-items: center;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+.btn-first{
+    background: #a52a2a;
+    color: rgb(230, 179, 179);
+}
+.btn-first:hover{
+    background: transparent;
+    color: #87CEEB;
+    border-color: #000;
+}
+.flex-1{
+    flex: 1;
+    
+}
